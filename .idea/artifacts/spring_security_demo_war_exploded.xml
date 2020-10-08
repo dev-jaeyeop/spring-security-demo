@@ -1,0 +1,32 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="spring-security-demo:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/spring_security_demo_war_exploded</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="spring-security-demo" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: org.springframework:spring-webmvc:5.2.9.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-aop:5.2.9.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-beans:5.2.9.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-context:5.2.9.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-core:5.2.9.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-jcl:5.2.9.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-expression:5.2.9.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-web:5.2.9.RELEASE" />
+          <element id="library" level="project" name="Maven: jstl:jstl:1.2" />
+          <element id="library" level="application_server_libraries" name="Tomcat 9.0.38" />
+          <element id="library" level="project" name="Maven: org.springframework.security:spring-security-web:5.4.1" />
+          <element id="library" level="project" name="Maven: org.springframework.security:spring-security-core:5.4.1" />
+          <element id="library" level="project" name="Maven: org.springframework.security:spring-security-config:5.4.1" />
+          <element id="library" level="project" name="Maven: org.springframework.security:spring-security-taglibs:5.4.1" />
+          <element id="library" level="project" name="Maven: org.springframework.security:spring-security-acl:5.4.1" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-jdbc:5.2.9.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-tx:5.2.9.RELEASE" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="spring-security-demo/web/Web" />
+    </root>
+  </artifact>
+</component>
