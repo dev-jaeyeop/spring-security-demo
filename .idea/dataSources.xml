@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
-    <data-source source="LOCAL" name="persistence-mysql" uuid="c0b33e7e-8e53-4040-83f2-77a0c4c16784">
+    <data-source source="LOCAL" name="persistence-mysql" uuid="fa0bb50d-dbf0-4591-b34e-4d2b01da599c">
       <driver-ref>mysql.8</driver-ref>
       <synchronize>true</synchronize>
       <imported>true</imported>

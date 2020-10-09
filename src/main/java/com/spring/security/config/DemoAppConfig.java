@@ -1,4 +1,4 @@
-package com.spring.demo.config;
+package com.spring.security.config;
 
 import com.mchange.v2.c3p0.ComboPooledDataSource;
 import org.springframework.context.annotation.Bean;
@@ -16,7 +16,7 @@ import java.util.Objects;
 import java.util.logging.Logger;
 
 @PropertySource("classpath:properties/persistence-mysql.properties")
-@ComponentScan(basePackages = "com.spring.demo")
+@ComponentScan(basePackages = "com.spring.security")
 @EnableWebMvc // <mvc:annotation-driven/>
 @Configuration
 public class DemoAppConfig {

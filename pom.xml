@@ -20,9 +20,6 @@
         <!-- spring security -->
         <springframework.security.version>5.4.1</springframework.security.version>
 
-        <!-- jstl -->
-        <jstl.version>1.2</jstl.version>
-
     </properties>
 
     <build>
@@ -72,7 +69,7 @@
         <dependency>
             <groupId>jstl</groupId>
             <artifactId>jstl</artifactId>
-            <version>${jstl.version}</version>
+            <version>1.2</version>
         </dependency>
 
         <!-- mysql -->
